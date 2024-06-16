@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font-size: 50px;
+    margin: 2px 10px;
+}
+a{
+    display: inline-block;
+    color:whitesmoke;
+    background-color: red;
+    border: 5px dashed darkred;
+    padding: 15px 60px;
+    margin: 0px 10px;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}

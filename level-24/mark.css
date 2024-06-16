@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    background-color:grey;
+}
+#main{
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:50px;
+}
+#my_img{
+  max-width:400px;
+}
+.content h1{
+  font-size: 60px;
+}
+h1{
+    font-size: 35px;
+    color:yellow
+}
+h2{
+    color:white;
+    font-size: 20px;
+   
+}
+
+.student{
+  display:flex;
+ align-items:center
+}
+.content>img{
+  max-width:20px;
+}
+.content{
+  margin-left:40px;
+}
+#skill{
+  align-self:stretch;
+  background-color:rgb(210, 210, 210);
+  text-align:center;
+}
+#logo>img{
+  max-width:100px;
+}
+#logo{
+  display:flex;
+  justify-content:space-evenly;
+}
+

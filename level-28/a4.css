@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height: 200vh;
+}
+.div1{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+.div2{
+    background-color:blue;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    left: 90%;
+   
+}
+
+.container{
+   position: relative;
+   color: white;
+    height: 50vh;
+    background-color: green;
+    margin: 20px;
+   
+}

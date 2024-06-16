@@ -1,0 +1,19 @@
+/* isme humne padha hai flex direction  flex-grow and flex shrink and flex basis */
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+
+}
+.item{
+    border: 5px solid red;
+    background-color: yellow;
+    height:100px;
+    width: 100px;
+
+}

@@ -1,0 +1,65 @@
+/* CSS ki help se hum image background me set karte hai kaise karte hai wo dekhte hai 
+ we use background image se url iamge ka,
+  backgorund repeat se usko repeat kar skte hai x , y axis and no repeat
+  background size se content ,cover (ye hoti hai) overflow hoke hidden(cover)
+  and cntent dono direction me increase hogi(and fix ho jayegi) to space reh jayega x me ya y axis me*/
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+a{
+    color: rgb(51,204,51);
+}
+#header{
+    background-color: black;
+}
+   
+#footer{
+    background:url( https://codeyogi.io/footer.jpg);
+    text-align: right;
+    
+}
+#header ,#footer{
+    padding: 20px;
+}
+#header a+a,#footer a+a{
+    margin-left: 30px;
+}
+.link-box{
+    border: 3px solid rgb(51,204,51);
+    display: inline-block;
+    padding: 5px;
+}
+#main{
+    padding: 60px 0px 60px 20px;
+    min-height:calc(100vh - 148px);
+    box-sizing: border-box;
+    background: url( https://codeyogi.io/coffee.jpg) no-repeat right center / cover;
+   
+   
+}   
+h1{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+p+p{
+    margin-top: 10px;
+}
+p~a{
+    border: 2px solid rgb(51,204,51);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.fonti{
+    font-weight: 700;
+}

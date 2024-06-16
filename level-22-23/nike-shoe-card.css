@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+font-family:'Times New Roman', Times, serif;
+}
+#shoe{
+    max-width: 40%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    border: 5px solid;
+    padding: 5px;
+    margin:10px;
+    border-radius: 4px;
+    max-width: 800px;
+}
+.details{
+   display: flex;
+   flex-direction: column;
+   gap: 5px; 
+}
+h1{
+    color: rgb(234, 162, 6);
+    padding: 20px;
+    font-size: 50px;
+
+}
+.price{
+    border: 5px solid black;
+    align-self: self-start;
+    padding:5px 20px;
+    color:rgb(234, 162, 6);
+    border-radius: 999px;
+
+}
+
+.details> a+a{
+    color: blue;
+}
+

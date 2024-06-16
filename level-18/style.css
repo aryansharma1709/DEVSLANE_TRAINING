@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+a{
+    color: green;
+}
+#header{
+    background-color: black;
+}
+   
+#footer{
+    background-color: yellow;
+    text-align: right;
+    
+}
+#header ,#footer{
+    padding: 20px;
+}
+#header a+a,#footer a+a{
+    margin-left: 30px;
+}
+.link-box{
+    border: 3px solid green;
+    display: inline-block;
+    padding: 5px;
+}
+#main{
+    padding-top: 40px;
+    padding-left: 20px;
+    min-height:calc(100vh - 148px);
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+}
+p+p{
+    margin-top: 10px;
+}
+p~a{
+    border: 2px solid green;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}

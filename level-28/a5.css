@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 200vh;
+    background-color: yellow;
+}
+.content{
+    padding-left:18%;
+    padding-top:50px;
+        h2{
+    font-size: 40px;
+   }
+   p{
+    font-size: 20px;
+   }
+   h2,p{
+     padding-top: 30px;;
+   }
+}
+.sidebar{
+    display: flex;
+    background-color: green;
+     position: fixed;
+     bottom:0;
+     top:-1%;
+     h1{
+        font-size: 50px;
+     }
+    flex-direction: column;   
+    gap: 20px; 
+    padding: 100px 6%;
+    color: white;
+}
+
